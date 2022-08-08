@@ -1,0 +1,95 @@
+<main>
+    <div class="main__flex">
+        <div class="main__text">
+            <h2 class="main__text--h2">Liberty NFT Market</h2>
+            <h1 class="main__text--h1">CREATE, SELL & COLLECT<br>TOP NFT'S.</h1>
+            <p class="main__text--p">Liberty NFT Market is a really cool and professional design for your NFT websites. This HTML CSS template is based on Bootstrap v5 and it is designed for NFT related web portals. Liberty can be freely downloaded from TemplateMo's free css templates.</p>
+        <button class="main__text--btn1">Explore Top NFTs</button>
+        <button class="main__text--btn2">Watch Our Videos</button>
+            </div>
+
+            <div class="banner__slider">
+                        <div class="slider__images">
+                            <div class="image" id="last">
+                                <img src="./images/banner-02.png" alt="">
+                            </div>
+                            <div class="image">
+                                <img src="./images/banner-01.png" alt="">
+                            </div>
+                            <div class="image">
+                                <img src="./images/banner-02.png" alt="">
+                            </div>
+                            <div class="image" id="first">
+                                <img src="./images/banner-01.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slider__buttons">
+                            <button class="btn btn__slide prev"><i class="fa-solid fa-angle-left"></i></button>
+                            <button class="btn btn__slide next"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+            </div>
+            
+    </div>
+    <button class="main__slider-btn1"><i class="fas fa-angle-left"></i></button>
+    <button class="main__slider-btn2"><i class="fas fa-angle-right"></i></button>
+</main>
+</div>
+
+main{
+    width: 80%;
+    margin: 0 auto;    
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.main__flex{
+}
+.main__text{
+    width: 80%;
+&--h2{
+    color: $textcolor;
+}    
+&--h1{
+    font-size: 50px;
+    color: $textcolor;
+}
+&--p{
+    color: $textcolor;
+    width: 80%;
+    font-size: 17px;
+}
+&--btn1{
+    border: none;
+    border-radius: 50px;
+    padding:10px 15px;
+    color:white;
+    font-size: 17px;
+    background: none;
+    transition-duration: 0.4s;
+    margin-right: 10px;
+}
+&--btn1:hover{
+    background-color: $primarybtn;
+    color: white;
+    cursor: pointer;
+}
+&--btn2{
+    border: none;
+    border-radius: 50px;
+    padding:10px 15px;
+    color:white;
+    font-size: 17px;
+    transition-duration: 0.4s;
+    background-color: $primarybtn;
+}
+&--btn2:hover{
+    background-color: white;
+    color:$primarybtn;
+}
+}
+
+
+
+
+
+
