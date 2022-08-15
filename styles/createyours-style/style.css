@@ -28,7 +28,7 @@ header a {
   bottom: 10px;
 }
 header a:hover {
-  font-size: 18px;
+  font-size: 17px;
   color: white;
   text-decoration: none;
 }
@@ -332,6 +332,9 @@ form {
 .main__content---text {
   padding-top: 20px;
   display: flex;
+}
+.main__content---text--img {
+  border-radius: 50%;
 }
 
 footer {
